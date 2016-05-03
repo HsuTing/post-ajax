@@ -1,0 +1,26 @@
+{
+  "name": "post_ajax",
+  "version": "1.0.0",
+  "description": "Post data with ajax",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./lib && babel --presets es2015,react -w --stage 0 src --out-dir lib",
+    "prod": "NODE_ENV=0 webpack --config webpack.config.js && NODE_ENV=1 webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HsuTing/post-ajax.git"
+  },
+  "keywords": [
+    "post",
+    "ajax",
+    "javascript"
+  ],
+  "author": "HsuTing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HsuTing/post-ajax/issues"
+  },
+  "homepage": "https://github.com/HsuTing/post-ajax#readme"
+}
