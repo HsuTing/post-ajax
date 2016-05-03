@@ -1,8 +1,8 @@
 {
-  "name": "post_ajax",
+  "name": "post-ajax",
   "version": "1.0.0",
   "description": "Post data with ajax",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf ./lib && babel --presets es2015,react -w --stage 0 src --out-dir lib",
