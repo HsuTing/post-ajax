@@ -1,6 +1,6 @@
 {
   "name": "post-ajax",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Post data with ajax",
   "main": "./lib/index.js",
   "scripts": {
