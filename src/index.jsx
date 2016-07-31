@@ -17,7 +17,7 @@ export default (url, data, funct, err_funct) => {
     if(xmlhttp.readyState == 4) {
       if(xmlhttp.status == 200) {
         if(funct != undefined) {
-          funct();
+          funct(xmlhttp.responseText);
         }
       }
       else {
